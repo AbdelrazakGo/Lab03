@@ -16,6 +16,15 @@ alert ("welcom " + userName)
 today =prompt ("what is the day today")
 while (today != 'sunday'){ today = prompt("Rethink again , Hint it's sunday")}
 
+var cats = prompt("How many cats would you like to appear on the screen?")
+
+for (var  i = 0; i < cats; i++)
+{
+
+document.write ('<img src ="https://cdn.dribbble.com/users/5517074/screenshots/12085846/cat_logo_4x.png"/>')
+
+}
+
 var star =['1','2','3','4','5']
 
 star = prompt("What star rating would you give, 1-5?")
@@ -33,3 +42,5 @@ if (star == 5) { document.write ('<img src="https://www.pngix.com/pngfile/middle
 
 if (star > 5) alert ("Gratfull") 
 document.write ('<img src ="https://image.shutterstock.com/image-vector/love-you-much-260nw-645974524.jpg"')
+
+
