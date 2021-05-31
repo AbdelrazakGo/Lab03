@@ -8,6 +8,16 @@
 // if (x > 75 ) { document.write ('<img src="https://img.memecdn.com/youre-fat_o_576964.jpg"')
 // } else {document.write ('<img src="https://thumbs.dreamstime.com/b/welcome-to-party-vector-hand-drawn-illustration-phrases-welcome-to-party-lettering-idea-poster-postcard-117369564.jpg" ')}
 
+// function userName(){
+//   let firstName = prompt("Enter your first name: ")
+//   let secondName = prompt("Enter your second name: ")
+//   return firstName + " " + secondName
+// }
+
+// // 
+// let full_name = userName ()
+// document.write ('welcome to our website ', full_name)
+
 var today =['Monday', 'Tuesday', 'Wednesday',' Thursday', 'Friday' ,'Saturday', 'Sunday']
 alert ("Kindly Hit Enter")
 var userName = prompt ("userName")
@@ -27,6 +37,7 @@ while (today != d1 && d2 !=today && d3 != today ){ today = prompt("Rethink again
 }
 
 week("sunday","monday","Tuesday")
+
 
 function photo () {
 var cats = prompt("How many cats would you like to appear on the screen?")
