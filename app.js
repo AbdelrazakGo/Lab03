@@ -14,16 +14,30 @@ var userName = prompt ("userName")
 // var today = "sunday"
 alert ("welcom " + userName)
 today =prompt ("what is the day today")
-while (today != 'sunday'){ today = prompt("Rethink again , Hint it's sunday")}
 
+
+
+
+function week(d1,d2,d3){
+
+today =prompt ("what is the day today")
+
+while (today != d1 && d2 !=today && d3 != today ){ today = prompt("Rethink again , Hint it's sunday , monday , Tuesday")}
+
+}
+
+week("sunday","monday","Tuesday")
+
+function photo () {
 var cats = prompt("How many cats would you like to appear on the screen?")
 
 for (var  i = 0; i < cats; i++)
-{
 
 document.write ('<img src ="https://cdn.dribbble.com/users/5517074/screenshots/12085846/cat_logo_4x.png"/>')
-
 }
+photo()
+
+
 
 var star =['1','2','3','4','5']
 
@@ -42,5 +56,4 @@ if (star == 5) { document.write ('<img src="https://www.pngix.com/pngfile/middle
 
 if (star > 5) alert ("Gratfull") 
 document.write ('<img src ="https://image.shutterstock.com/image-vector/love-you-much-260nw-645974524.jpg"')
-
 
